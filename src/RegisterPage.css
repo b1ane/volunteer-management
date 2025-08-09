@@ -1,0 +1,58 @@
+.register-container {
+  background-color: #B22222; /* Firebrick red */
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+.register-container h1 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.register-form input,
+.register-form select {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.register-form button {
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.register-form button:hover {
+  background-color: #333;
+}
+
+.register-error {
+  color: #ffcccb;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
