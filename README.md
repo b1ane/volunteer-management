@@ -26,3 +26,15 @@ Now you can Use the application as if you're an administrator / volunteer
 
 
 As an administrator you can access all pages, and only administrators can create events, assign volunteers to events (Manual volunteer matching), and remove volunteers from events
+
+
+Dependencies
+
+npm install react react-dom react-router-dom
+npm install axios
+npm install dotenv
+npm install express cors mysql2 bcryptjs dotenv crypto nodemailer
+
+
+npm install axios dayjs
+npm install express cors dotenv mysql2 bcrypt
